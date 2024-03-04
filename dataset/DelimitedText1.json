@@ -10,8 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "corpus_libros_metadata_1-20000",
-				"folderPath": "metadata",
 				"container": "stg"
 			},
 			"columnDelimiter": ",",
