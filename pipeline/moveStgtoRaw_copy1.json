@@ -101,6 +101,7 @@
 											"value": "@variables('Fecha')",
 											"type": "Expression"
 										},
+										"wildcardFileName": "*",
 										"enablePartitionDiscovery": false
 									},
 									"formatSettings": {
