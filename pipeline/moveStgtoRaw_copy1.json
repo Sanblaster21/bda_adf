@@ -74,6 +74,10 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"expression": {
+						"value": "@activity('CheckFlag').output",
+						"type": "Expression"
+					},
 					"ifTrueActivities": [
 						{
 							"name": "CopyFromStgToRaw",
