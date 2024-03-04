@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"folderPath": "Books",
 				"container": "raw"
 			},
 			"columnDelimiter": ",",
