@@ -32,6 +32,10 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"expression": {
+						"value": "@activity('CheckFlag').output.exists",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "CheckFlag",
@@ -83,7 +87,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"expression": {
-									"value": "@activity('CheckFlag').output",
+									"value": "@activity('CheckFlag').output.exists",
 									"type": "Expression"
 								},
 								"ifTrueActivities": [
@@ -154,7 +158,7 @@
 							}
 						}
 					],
-					"timeout": "0.12:00:00"
+					"timeout": "0.00:10:00"
 				}
 			},
 			{
