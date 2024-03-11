@@ -1,0 +1,24 @@
+{
+	"name": "triggerStgToRaw",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "moveStgtoRaw",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2024-03-11T15:39:00",
+				"timeZone": "Romance Standard Time"
+			}
+		}
+	}
+}
