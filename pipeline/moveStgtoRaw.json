@@ -236,7 +236,10 @@
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
 						"recursive": true,
-						"wildcardFileName": "@variables('Fecha')",
+						"wildcardFileName": {
+							"value": "@variables('Fecha')",
+							"type": "Expression"
+						},
 						"enablePartitionDiscovery": false
 					}
 				}
