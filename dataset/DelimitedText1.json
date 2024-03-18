@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"folderPath": "metadata",
+				"folderPath": "@variables('Fecha')",
 				"container": "stg"
 			},
 			"columnDelimiter": ",",
